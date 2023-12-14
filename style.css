@@ -1,0 +1,70 @@
+body {
+    background-color: #dee0df; 
+    font-family: 'Times New Roman', Times, serif;
+    color: #011401;
+}
+
+.container {
+    background-color: #dee0df;
+    width: 1024px;
+    margin: auto;
+    box-shadow: 0 0 5px 5px hsla(0, 0%, 0%, 0.55);
+}
+
+main a:link,
+main a:visited {
+    color: purple;
+    text-decoration: solid 4px underline;
+    font-weight: 700;
+}
+
+main a:hover,
+main a:focus {
+    color: darkblue;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+nav {
+    background-color: #1f2230;
+    overflow: hidden;
+}
+
+nav a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff; 
+    background-color: #1f2230; 
+    border: 1px solid #1f2230;
+    border-radius: 5px;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #333;
+    color: #fff;
+}
+
+nav a:link,
+nav a:visited {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.shadow {
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.55);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
